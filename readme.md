@@ -2,7 +2,6 @@
 
 Welcome to the Anomaly Detection in PCAP Files project! This project utilizes Python and machine learning techniques to detect anomalies in PCAP files, which are commonly used for network packet captures. With the added benefit of a graphical user interface (GUI), this project provides an intuitive and user-friendly experience for analyzing network traffic and identifying potential anomalies.
 
-![Project Demo](demo.png)
 
 ## Table of Contents
 
@@ -43,20 +42,15 @@ To use this project on your local machine, follow these steps:
 
 3. Install the required dependencies. It is recommended to set up a virtual environment before installing dependencies:
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # For Linux/Mac
-   venv\Scripts\activate.bat  # For Windows
+  
 
-   pip install -r requirements.txt
-   ```
 
 4. Download and install the necessary machine learning models if they are not included in the repository. Follow the instructions provided in the `models/README.md` file.
 
 5. Launch the GUI application:
 
    ```bash
-   python main.py
+   python main_page.py
    ```
 
 6. The GUI window will open, allowing you to load PCAP files, configure settings, and explore the detected anomalies.
@@ -80,3 +74,5 @@ To use this project on your local machine, follow these steps:
 ## Contributing
 
 Contributions to this project are highly appreciated. If you have any ideas for improvements, new features, bug fixes, or want to contribute in any other
+## external sources used
+This project uses Hikari-2021 dataset for trainig model and it uses CICFlowmeter to capture pcap files.Which are both opensource. 
