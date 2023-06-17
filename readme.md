@@ -73,6 +73,6 @@ To use this project on your local machine, follow these steps:
 
 ## Contributing
 
-Contributions to this project are highly appreciated. If you have any ideas for improvements, new features, bug fixes, or want to contribute in any other
+Contributions to this project are highly appreciated. If you have any ideas for improvements, new features, bug fixes, or want to contribute in any other way you are free to do so how ever do leave a star.
 ## external sources used
 This project uses Hikari-2021 dataset for trainig model and it uses CICFlowmeter to capture pcap files.Which are both opensource. 
